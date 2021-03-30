@@ -223,11 +223,10 @@
     transform: matrix(1,0,0,1,0,0);
 }
 #Welcome_back_Student {
-    left: 88px;
-    top: 732px;
+    padding-top: 730px;
+    margin: auto;
     position: absolute;
     overflow: visible;
-    width: 193px;
     white-space: nowrap;
     text-align: center;
     font-family: Avenir LT Std;
