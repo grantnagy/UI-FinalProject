@@ -169,7 +169,7 @@
     left: 187.5px;
     top: 509.223px;
 }
-#Change_my_password {
+#Change_my_password a{
     left: 87.5px;
     top: 516.223px;
     position: absolute;
@@ -182,8 +182,9 @@
     font-weight: lighter;
     font-size: 8px;
     color: rgba(255,255,255,1);
+    text-decoration: none;
 }
-#I_forgot_my_password {
+#I_forgot_my_password a{
     left: 203.5px;
     top: 516.223px;
     position: absolute;
@@ -196,6 +197,7 @@
     font-weight: lighter;
     font-size: 8px;
     color: rgba(255,255,255,1);
+    text-decoration: none;
 }
 #Username {
     left: 105px;
