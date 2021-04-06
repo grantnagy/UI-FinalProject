@@ -223,7 +223,7 @@
     transform: matrix(1,0,0,1,0,0);
 }
 #Welcome_back_Student {
-    padding-top: 715px;
+    padding-top: 735px;
     margin: auto;
     position: relative;
     overflow: visible;
@@ -235,7 +235,64 @@
     font-size: 20px;
     color: rgba(255,255,255,1);
 }
-
+#logout {
+    position: absolute;
+    width: 24.505px;
+    height: 20px;
+    left: 340px;
+    top: 7px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: login_screen.html;
+    cursor: pointer;
+}
+#log-out {
+    position: absolute;
+    width: 24.505px;
+    height: 20.667px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#date {
+    left: 10px;
+    top: 7px;
+    position: absolute;
+    overflow: visible;
+    width: 21px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Path_768 {
+    fill: rgba(255,255,255,1);
+}
+.Path_768 {
+    overflow: visible;
+    position: absolute;
+    width: 7.75px;
+    height: 16px;
+    left: 0px;
+    top: 2px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_769 {
+    fill: rgba(255,255,255,1);
+}
+.Path_769 {
+    overflow: visible;
+    position: absolute;
+    width: 18.059px;
+    height: 16.44px;
+    left: 6.446px;
+    top: 2px;
+    transform: matrix(1,0,0,1,0,0);
+}
 #CMU_LOGO {
     position: absolute;
     width: 184px;
