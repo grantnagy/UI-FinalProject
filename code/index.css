@@ -1030,7 +1030,18 @@
     left: 27px;
     top: 352px;
     overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: myFiles.html;
 }
+
+#my_files * {
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: myFiles.html;
+    cursor: pointer;
+}
+
 #Rectangle_1004_cu {
     fill: rgba(255,255,255,1);
 }
