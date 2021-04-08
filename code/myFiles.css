@@ -12,12 +12,18 @@
     overflow: hidden;
 }
 
+img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 #header {
-    background-color: #5D0022;
+    background-color: #cecece;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20%;
+    height: 15%;
 }
 
 #main p {
@@ -28,18 +34,30 @@
 }
 
 button {
-    margin: 5px 70% 5px 5%;
-    padding: 0.5em;
-    border: 1px solid gray;
+    margin: 5px 20% 20px 20%;
+    padding: 1em;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 5px;
+}
+
+#footer button {
+    background-color: #494643;
+    margin: 1em 5% 5px 5%;
+    color: rgb(233, 233, 233);
+    float: left;
 }
 
 button:hover {
     background-color: #BCBCBC;
 }
 
+#footer button:hover {
+    background-color: #696866;
+}
+
 #footer {
     background-color: #6D5E51;
-    height: 50%;
+    height: 20%;
 }
 
 #footer p {
