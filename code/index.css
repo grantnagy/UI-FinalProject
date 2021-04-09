@@ -49,17 +49,6 @@
     --web-action-target: login_screen.html;
     cursor: pointer;
 }
-#BackgroundRect {
-    fill: rgba(133,0,55,1);
-}
-.BackgroundRect {
-    position: absolute;
-    overflow: visible;
-    width: 375px;
-    height: 810px;
-    left: 0px;
-    top: 0px;
-}
 #mavzone {
     position: absolute;
     width: 96.698px;
