@@ -34,6 +34,14 @@
     }
 
 }
+.BackgroundRect {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 810px;
+    left: 0px;
+    top: 0px;
+}
 #WelcomeBackBox {
     fill: rgba(133,0,55,1);
 }
