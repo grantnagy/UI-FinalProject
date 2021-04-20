@@ -1,3 +1,7 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url(fonts/Avenir-LT-Std-35-Light_5169.ttf);
+}
 .mediaViewInfo {
     --web-view-name: index;
     --web-view-id: index;
@@ -226,7 +230,7 @@
     overflow: visible;
     white-space: nowrap;
     text-align: center;
-    font-family: Avenir LT Std;
+    font-family: myFirstFont;
     font-style: normal;
     font-weight: lighter;
     font-size: 20px;
@@ -260,7 +264,7 @@
     width: 21px;
     white-space: nowrap;
     text-align: left;
-    font-family: Avenir LT Std;
+    font-family: myFirstFont;
     font-style: normal;
     font-weight: lighter;
     font-size: 16px;
@@ -1003,7 +1007,7 @@
     width: 71px;
     white-space: nowrap;
     text-align: center;
-    font-family: Avenir LT Std;
+    font-family: myFirstFont;
     font-style: normal;
     font-weight: lighter;
     font-size: 12px;
