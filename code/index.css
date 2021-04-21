@@ -1087,6 +1087,7 @@
     left: 138px;
     top: 352px;
     overflow: visible;
+    cursor: pointer;
 }
 #Rectangle_1004_cy {
     fill: rgba(255,255,255,1);
