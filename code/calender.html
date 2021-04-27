@@ -20,7 +20,21 @@
             </a>
         </div>
         <div id="main">
-            <img src="../images/calender.jpg" id="img1">
+            <h2 style="font-family: sans-serif;"> Currently Registered Classes </h2>
+            <table>
+                <tr>
+                    <th>Course Name</th>
+                    <th> Time </th>
+                    <th> Room </th>
+                </tr>
+                <tr id="b1"></tr>
+                <tr id="b2"></tr>
+                <tr id="b3"></tr>
+                <tr id="b4"></tr>
+                <tr id="b5"></tr>
+            </table>
+
+            <!--<img src="../images/calender.jpg" id="img1">-->
             <img src="../images/schedule.jpg" id="img2">
         </div>
         <div id="footer">
@@ -30,4 +44,34 @@
         </div>
     </div>
 </body>
+<script>
+/*
+    const rows = localStorage.length;
+    for (let i=1; i<=rows; i++) {
+        const currentCourse = JSON.parse(localStorage.getItem(i+1));
+        let tr = document.getElementById("b" + i);
+        for (let k=1; k<=3; k++) {
+            let td = tr.insertCell();
+            td.innerHTML = currentCourse[k];
+        }
+    }*/
+    var registeredCourses = new Array;
+    var storageLength = localStorage.length;
+
+    for (let k = 1; k <= storageLength; k++) {
+        const currentItem = JSON.parse(localStorage.getItem(k));
+        console.log(currentItem[0] + " " + currentItem[1] );
+        registeredCourses.push(currentItem[0]);
+    }
+
+    for (let i=1; i<=storageLength; i++) {
+        const currentCourse = JSON.parse(localStorage.getItem(i));
+        let tr = document.getElementById("b" + i);
+        for (let k=0; k<=2; k++) {
+            let td = tr.insertCell();
+            td.innerHTML = currentCourse[k];
+        }
+    }
+
+</script>
 </html>
