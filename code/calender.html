@@ -58,13 +58,13 @@
     var registeredCourses = new Array;
     var storageLength = localStorage.length;
 
-    for (let k = 1; k <= storageLength; k++) {
+    for (let k = 2; k <= storageLength; k++) {
         const currentItem = JSON.parse(localStorage.getItem(k));
         console.log(currentItem[0] + " " + currentItem[1] );
         registeredCourses.push(currentItem[0]);
     }
 
-    for (let i=1; i<=storageLength; i++) {
+    for (let i=2; i<=storageLength; i++) {
         const currentCourse = JSON.parse(localStorage.getItem(i));
         let tr = document.getElementById("b" + i);
         for (let k=0; k<=2; k++) {

@@ -10,10 +10,11 @@ function saveClass(course, time, room) {
 
     let registeredClasses = new Array;
     let storageLength = localStorage.length;
-
-    for (let k = 1; k <= storageLength; k++) {
-        const currItem = JSON.parse(localStorage.getItem(k));
-        registeredClasses.push(currItem[0]);
+    if (storageLength.length > 1 ) {
+        for (let k = 1; k <= storageLength; k++) {
+            const currItem = JSON.parse(localStorage.getItem(k.toString));
+            registeredClasses.push(currItem[0]);
+        }
     }
 
     //console.log(registeredClasses);
@@ -28,7 +29,7 @@ function saveClass(course, time, room) {
     if (storageLength > 5) { alreadyInCourse = true; }
     
     if (alreadyInCourse == false) {
-        localStorage.setItem(storageLength + 1, JSON.stringify([course, time, room]));
+        localStorage.setItem((storageLength + 1).toString(), JSON.stringify([course, time, room]));
         registeredClasses.push(course);
         alert("Registered for " + course);
     }
