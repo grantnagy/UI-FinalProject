@@ -2,6 +2,33 @@
     font-family: myFirstFont;
     src:url(../fonts/Avenir-LT-Std-35-Light_5169.ttf);
 }
+@import url("https://p.typekit.net/p.css?s=1&k=fon3jpe&ht=tk&f=1903.1904.1905.1906&a=69667925&app=typekit&e=css");
+
+@font-face {
+font-family:Paris;
+src:url("https://use.typekit.net/af/be4a2d/000000000000000077359945/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/be4a2d/000000000000000077359945/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/be4a2d/000000000000000077359945/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"parisplus-sombre";
+src:url("https://use.typekit.net/af/0672dd/000000000000000077359940/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/0672dd/000000000000000077359940/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/0672dd/000000000000000077359940/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"parisplus-sombre";
+src:url("https://use.typekit.net/af/1a77ec/000000000000000077359961/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/1a77ec/000000000000000077359961/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/1a77ec/000000000000000077359961/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"parisplus-sombre";
+src:url("https://use.typekit.net/af/3a89b2/000000000000000077359957/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/3a89b2/000000000000000077359957/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/3a89b2/000000000000000077359957/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+.tk-parisplus-sombre { font-family: "parisplus-sombre",sans-serif; }
 .mediaViewInfo {
     --web-view-name: index;
     --web-view-id: index;
@@ -1062,7 +1089,7 @@
     width: 51px;
     white-space: nowrap;
     text-align: left;
-    font-family: Parisine Plus Std Sombre;
+    font-family: Paris;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1108,7 +1135,7 @@
     width: 62px;
     white-space: nowrap;
     text-align: left;
-    font-family: Parisine Plus Std Sombre;
+    font-family: Paris;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -1153,7 +1180,7 @@
     width: 56px;
     white-space: nowrap;
     text-align: left;
-    font-family: Parisine Plus Std Sombre;
+    font-family: Paris;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1217,7 +1244,7 @@
     width: 52px;
     white-space: nowrap;
     text-align: left;
-    font-family: Parisine Plus Std Sombre;
+    font-family: Paris;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1303,7 +1330,7 @@
     width: 35px;
     white-space: nowrap;
     text-align: left;
-    font-family: Parisine Plus Std Sombre;
+    font-family: Paris;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1344,7 +1371,7 @@
     width: 60px;
     white-space: nowrap;
     text-align: left;
-    font-family: Parisine Plus Std Sombre;
+    font-family: Paris;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
