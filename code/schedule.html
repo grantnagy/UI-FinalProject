@@ -45,33 +45,20 @@
     </div>
 </body>
 <script>
-/*
-    const rows = localStorage.length;
-    for (let i=1; i<=rows; i++) {
-        const currentCourse = JSON.parse(localStorage.getItem(i+1));
-        let tr = document.getElementById("b" + i);
-        for (let k=1; k<=3; k++) {
-            let td = tr.insertCell();
-            td.innerHTML = currentCourse[k];
-        }
-    }*/
     var registeredCourses = new Array;
     var storageLength = localStorage.length;
 
-    for (let k = 2; k <= storageLength; k++) {
-        const currentItem = JSON.parse(localStorage.getItem(k));
-        console.log(currentItem[0] + " " + currentItem[1] );
+    for (let i = 2; i <= storageLength; i++) {
+        const currentItem = JSON.parse(localStorage.getItem(i));
+        //console.log(currentItem[0]);
         registeredCourses.push(currentItem[0]);
-    }
-
-    for (let i=2; i<=storageLength; i++) {
-        const currentCourse = JSON.parse(localStorage.getItem(i));
-        let tr = document.getElementById("b" + i);
-        for (let k=0; k<=2; k++) {
+        let tr = document.getElementById("b" + (i-1) );
+        for (let k = 0; k <=2; k++) {
             let td = tr.insertCell();
-            td.innerHTML = currentCourse[k];
+            td.innerHTML = currentItem[k];
         }
-    }
 
+    }
+    //console.log(registeredCourses);
 </script>
 </html>
